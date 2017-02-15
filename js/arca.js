@@ -91,7 +91,7 @@ var GAME_AREA = {
             for (var column = 0; column < 8; column++) {
                 var posX = column * fixedWidth + (marginLR * column) + canvasPadding;
                 var posY = row * fixedHeight + (marginTB * row) + canvasPadding;
-                var imagePath = "../images/ArcaGame/arcaRow" + (row + 1) + ".png";
+                var imagePath = "images/ArcaGame/arcaRow" + (row + 1) + ".png";
 
                 var block = new component (fixedWidth, fixedHeight, posX, posY, imagePath, 0, 0);
 
