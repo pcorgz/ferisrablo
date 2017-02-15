@@ -15,13 +15,13 @@ var GAME_START = function () {
         x : GAME_AREA.canvas.width / 2 - 50,
         y : 350
     };
-    arcaPlayer = new component(100, 10, arcaPlayerInitPos.x, arcaPlayerInitPos.y, "../images/ArcaGame/arcaPlayer.png", 10, 0);
+    arcaPlayer = new component(100, 10, arcaPlayerInitPos.x, arcaPlayerInitPos.y, "./images/ArcaGame/arcaPlayer.png", 10, 0);
 
     pelletInitPos = {
         x : GAME_AREA.canvas.width / 2 - 5,
         y : 340
     };
-    pellet = new component(10, 10, pelletInitPos.x, pelletInitPos.y, "../images/ArcaGame/pellet.png", 5, -5);
+    pellet = new component(10, 10, pelletInitPos.x, pelletInitPos.y, "./images/ArcaGame/pellet.png", 5, -5);
 
     GAME_AREA.initBlocks();
 
