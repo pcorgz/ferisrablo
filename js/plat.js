@@ -31,16 +31,16 @@ var platKeys; // keys down
 
 /* IMAGES */
 var platPlayerImage = new Image();
-platPlayerImage.src = "Images/PlatGame/coin-sprite-animation-sprite-sheet.png";
+platPlayerImage.src = "/images/PlatGame/coin-sprite-animation-sprite-sheet.png";
 
 var backImages = [];
 var backImage_0 = new Image();
 var backImage_1 = new Image();
 var backImage_2 = new Image();
 //var backImage_3 = new Image();
-backImage_0.src = "Images/PlatGame/platBackground_0.png";
-backImage_1.src = "Images/PlatGame/platBackground_1.png";
-backImage_2.src = "Images/PlatGame/platBackground_2.png";
+backImage_0.src = "/images/PlatGame/platBackground_0.png";
+backImage_1.src = "/images/PlatGame/platBackground_1.png";
+backImage_2.src = "/images/PlatGame/platBackground_2.png";
 //backImage_3.src = "Images/PlatGame/platBackground_3.png";
 
 backImages.push(backImage_0);
@@ -51,9 +51,9 @@ backImages.push(backImage_2);
 var platTileImage_bricks = new Image();
 var platTileImage_dirt = new Image();
 var platTileImage_grass = new Image();
-platTileImage_bricks.src = "Images/PlatGame/platTile_bricks.png";
-platTileImage_dirt.src = "Images/PlatGame/platTile_dirt.png";
-platTileImage_grass.src = "Images/PlatGame/platTile_grass.png";
+platTileImage_bricks.src = "/images/PlatGame/platTile_bricks.png";
+platTileImage_dirt.src = "/images/PlatGame/platTile_dirt.png";
+platTileImage_grass.src = "/images/PlatGame/platTile_grass.png";
 
 /* GAME COMPONENTS
 **********************************************/
