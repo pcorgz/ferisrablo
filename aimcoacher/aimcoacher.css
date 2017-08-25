@@ -1,0 +1,59 @@
+.targetRed {
+    border-radius: 50%;
+    border: 1px solid #d43d3d;
+	position: absolute;
+	box-shadow: 0 0 15px #d43d3d;
+	height: 60px;
+	background: #d43d3d;
+	width: 60px;
+}
+
+.targetYell {
+    border-radius: 50%;
+    border: 1px solid #e8942c;
+	position: absolute;
+	box-shadow: 0 0 15px #e8942c;
+	height: 35px;
+	background: #e8942c;
+	width: 35px;
+	margin-top: 19%;
+	margin-left: 19%;
+}
+
+.targetWit {
+    border-radius: 50%;
+    border: 1px solid #e4dfd7;
+	position: absolute;
+	box-shadow: 0 0 15px #e4dfd7;
+	height: 15px;
+	background: #e4dfd7;
+	width: 15px;
+	margin-top: 26%;
+	margin-left: 26%;
+}
+
+.hitPts{
+	position: absolute;
+	font-family: monospace;
+	font-size:20px;
+	text-shadow: 0 0 8px #f9023b;
+	color: #f9023b;
+}
+
+
+.waterDrop {
+    animation: falling 1s;
+    background-color: #2ca6ea;
+	border-bottom-right-radius: 25px;
+	border-bottom-left-radius: 25px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+    height: 50px;
+    width: 3px;
+	position: absolute;
+	box-shadow: 0 0 10px #2ca6ea;
+}
+@keyframes falling {
+	0%		{ top: 0px; }
+	100%	{ top:  92%; display:none;}
+}
